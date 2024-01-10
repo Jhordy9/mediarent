@@ -20,7 +20,7 @@
      cp env.example .env
      ```
 
-## Running the Application
+### Running the Application
 
 ```bash
 make up
