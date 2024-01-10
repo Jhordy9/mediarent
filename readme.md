@@ -1,4 +1,4 @@
-# Delliv
+# MediaRent
 
 ## System Requirements
 
