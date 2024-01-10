@@ -26,6 +26,12 @@
 make up
 ```
 
+### Add seeds
+
+```bash
+npm run seed
+```
+
 ### Stop and Remove Containers
 
 ```bash
