@@ -1,4 +1,4 @@
-# Delliv
+# MediaRent
 
 ## System Requirements
 
@@ -20,10 +20,16 @@
      cp env.example .env
      ```
 
-## Running the Application
+### Running the Application
 
 ```bash
 make up
+```
+
+### Add seeds
+
+```bash
+npm run seed
 ```
 
 ### Stop and Remove Containers
