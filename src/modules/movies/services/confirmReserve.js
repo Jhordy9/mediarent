@@ -3,7 +3,7 @@ const Reserve = require('../../../models/reserve');
 const Schedule = require('../../../models/schedule');
 const { threeHoursAgo } = require('../utils');
 
-async function confirmReserve(reserveId) {
+const confirmReserve = async (reserveId) => {
   const reserve = await Reserve.findOne({ reserveId });
 
   if (!reserve) {

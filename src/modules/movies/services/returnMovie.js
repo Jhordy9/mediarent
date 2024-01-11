@@ -1,7 +1,7 @@
 const { notFound, badRequest } = require("@hapi/boom");
 const Schedule = require("../../../models/schedule");
 
-async function returnMovie(scheduleId) {
+const returnMovie = async (scheduleId) => {
   const rent = await Schedule.findOne({ scheduleId });
 
   if (!rent) {
